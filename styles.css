@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.menu-item {
+    padding: 16px;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+#logo-icon {
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    margin-left: 0;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    float: right;
+    padding: 20px;
+    font-size: 28px;
+    margin-top: 20px;
+    justify-content: space-between;
+    margin-right: 70px;
+  }
+
+#menu-bar {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#rover-image {
+    height: 70%;
+    width: 45%;
+    float: left;
+    margin-right: 16px;
+}
+
+#name-wrapper {
+    position: absolute;
+    top: 240px;
+    right: 150px;
+}
+
+p {
+    margin-top: 20px;
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h3 {
+    margin-top: 10px;
+    padding-top: 16px;
+}
+
+.main-buttons {
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    margin-top: 36px;
+    padding: 16px;
+    margin-right: 16px;
+    border: 10px, 10px, 10px, 10px;
+}
+
+.social-buttons {
+    background-color: black;
+    color: white;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 20px;
+    border: 0;
+}
+
+.social-icons {
+    width: 24px;
+    height: 24px;
+    margin-top: 10px;
+}
